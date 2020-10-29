@@ -317,11 +317,11 @@ nav {
 .hero-photo img {
     width: 100%;
     opacity: 0.5;
-    transition: opacity 1s, scale 1s;
+    transition: opacity 1s, transform 1s;
 }
 .hero-photo img:hover {
     opacity: 1;
-    scale: 1.1;
+    transform:scale(1.1,1.1);
 }
 
 .box {
@@ -336,13 +336,13 @@ nav {
     max-width: 80%;
     max-height: 150px;
     opacity: 0.5;
-    transition: opacity 0.5s, scale 0.5s;
+    transition: opacity 0.5s, transform 0.5s;
 }
 .box:hover {
     background-color: #64ffda;
 }
 .box:hover img {
-    scale: 1.1;
+    transform:scale(1.1,1.1);
     opacity: 1;
 }
 /*-----------------------------------------------*/
@@ -363,7 +363,7 @@ nav {
 .skill-box {
     margin: 20px auto;
     text-align: center;
-    transition: scale 0.5s;
+    transition: transform 0.5s;
     max-height: 150px;
 }
 .skill-box img {
@@ -371,7 +371,7 @@ nav {
     max-height: 160px;
 }
 .skill-box:hover {
-    scale: 1.1;
+    transform:scale(1.1,1.1);
 }
 
 
@@ -388,7 +388,7 @@ nav {
 .project {
     background-color: rgba(100,255,218,0.2);
     padding: 5px;
-    transition: scale 0.5s, background-color 0.5s;
+    transition: transform 0.5s, background-color 0.5s;
 }
 
 .project img {
@@ -402,7 +402,7 @@ nav {
 
 .project:hover {
     background-color: rgba(100,255,218,0.5);
-    scale: 1.1;
+    transform:scale(1.1,1.1);
 }
 .project:hover img {
     opacity: 1;
@@ -451,11 +451,11 @@ nav {
     width: 90%;
     margin-left: 5%;
     box-shadow: 0 0 5px #efefef;
-    transition: scale 1s;
+    transition: transform 1s;
 }
 
 .plan-box:hover {
-    scale: 1.1;
+    transform:scale(1.1,1.1);
 }
 
 .plan-box div {
